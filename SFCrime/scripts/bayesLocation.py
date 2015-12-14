@@ -154,7 +154,7 @@ def plot_nb_loc(df, m, bin_size, min_bins):
     plt.title("Most likely crime given knowledge of location only,\n"
               "excluding non-criminal and other offenses",
               fontsize=16)
-    plt.savefig('Class output.png')
+    plt.savefig('../output/MAP_CrimeCateg.png')
 
 
 if __name__ == '__main__':
